@@ -38,5 +38,8 @@ output directory to `dist`.
   plate is auto-sized from the text's bounding box.
 - `src/exportStl.js` walks the keyfob group with three's `STLExporter` and
   triggers a binary `.stl` download.
+- `src/assets/helvetiker_bold.typeface.json` is the Helvetiker bold typeface
+  from three's examples, vendored because newer three releases no longer
+  publish the example fonts.
 
 All measurements are in millimetres, so the STL slices at real-world scale.

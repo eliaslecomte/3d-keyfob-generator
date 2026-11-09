@@ -1,7 +1,7 @@
 import { forwardRef, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { Text3D } from '@react-three/drei'
 import * as THREE from 'three'
-import helvetiker from 'three/examples/fonts/helvetiker_bold.typeface.json'
+import helvetiker from '../assets/helvetiker_bold.typeface.json'
 
 // All dimensions are in millimetres.
 const BASE_DEPTH = 2 // thickness of the fat "merged" backing text
